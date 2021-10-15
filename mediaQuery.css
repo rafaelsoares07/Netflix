@@ -1,0 +1,55 @@
+
+
+
+
+
+
+@media (max-width:800px){
+	.lista-menu{
+		display: none;
+	}
+
+	.logo-menu{
+	
+	width: 150px;
+	}
+
+	.nav-bar{
+	
+	justify-content: center;
+	align-items: center;
+	}
+
+
+}
+
+@media (max-width: 430px){
+	.logo-menu{
+		display: none;
+		}
+
+	.div-botoes{
+	width: 300px;
+		}
+
+	.card-sobre-video img{
+	max-width: 250px;
+		}
+
+	.card-sobre-video{
+		width: 300px;
+	}
+
+	.card-sobre-video{
+	top: calc(100vh - 80vh);
+	left: calc(100vw - 95vw);
+	width: 300px;
+		}
+
+	.btn-sobre-video{
+	
+	top: calc(100vh - 15vh);
+	left: calc(100vw - 25vw);
+
+		}
+}

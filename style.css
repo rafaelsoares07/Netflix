@@ -45,7 +45,7 @@ video{
 .logo-menu{
 	display: flex;
 	align-items: center;
-	min-width: 500px;
+	width: 500px;
 	
 }
 .logo-menu img{
@@ -98,8 +98,8 @@ video{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	top: calc(100vh - 150px);
-	left: calc(100vw - 150px);
+	top: calc(100vh - 15vh);
+	left: calc(100vw - 25vw);
 	border: 1px solid gray;
 	border-radius: 90px;
 	width: 50px;
