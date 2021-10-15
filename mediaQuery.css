@@ -1,4 +1,22 @@
+@media (max-width: 420px) and (orientation: landscape) {
+	.div-botoes{
+		display: none;
+		background-color: red;
+	}
+	.btn-sobre-video img{
+	width: 16px;
+		}
 
+	.btn-sobre-video{
+	
+	top: calc(100vh - 40vh);
+	left: calc(100vw - 90vw);
+	width: 20px;
+	height: 20px;
+	display: none;
+
+		}
+}
 
 
 
@@ -33,7 +51,7 @@
 	}
 
 	.nav-bar{
-	margin-top: 10px;
+	margin-top: 20px;
 		}
 
 	.div-botoes{
@@ -56,15 +74,12 @@
 
 	.btn-sobre-video{
 	
-	top: calc(100vh - 15vh);
+	top: calc(100vh - 20vh);
 	left: calc(100vw - 25vw);
 
 		}
 }
 
-@media (max-heigth: 320px){
-	.div-botoes{
-		display: none;
-		background-color: red;
-	}
-}
+
+
+
