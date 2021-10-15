@@ -18,6 +18,14 @@
 		}
 }
 
+@media (max-width: 800px) and (orientation: landscape) {
+	.div-botoes{
+		display: none;
+		background-color: red;
+	}
+
+}
+
 
 
 
