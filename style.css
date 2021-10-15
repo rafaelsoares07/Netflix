@@ -45,13 +45,16 @@ video{
 .logo-menu{
 	display: flex;
 	align-items: center;
-	width: 500px;
+	width: 540px;
 	
 }
 .logo-menu img{
 	margin-left: 25px;
 	margin-right: 20px;
 	width:105px;
+}
+.logo2{
+	display: none;
 }
 
 .lista-menu{

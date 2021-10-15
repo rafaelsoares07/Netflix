@@ -28,6 +28,14 @@
 		display: none;
 		}
 
+	.logo2{
+		display: block;
+	}
+
+	.nav-bar{
+	margin-top: 10px;
+		}
+
 	.div-botoes{
 	width: 300px;
 		}
@@ -52,4 +60,11 @@
 	left: calc(100vw - 25vw);
 
 		}
+}
+
+@media (max-heigth: 320px){
+	.div-botoes{
+		display: none;
+		background-color: red;
+	}
 }
