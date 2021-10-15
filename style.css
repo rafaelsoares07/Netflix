@@ -93,13 +93,13 @@ video{
 }
 
 
-.itens-sobre-video{
+.btn-sobre-video{
 	position: absolute;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	top: calc(100vh - 100px);
-	left: calc(100vw - 100px);
+	top: calc(100vh - 150px);
+	left: calc(100vw - 150px);
 	border: 1px solid gray;
 	border-radius: 90px;
 	width: 80px;
@@ -110,4 +110,66 @@ video{
 .btnNoMute{
 	display: none;
 
+}
+
+.card-sobre-video{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	top: calc(100vh - 70vh);
+	left: calc(100vw - 95vw);
+	width: 350px;
+	
+}
+
+.card-sobre-video img{
+	max-width: 350px;
+	
+	
+}
+
+.texto-descricao-video {
+	color: white;
+}
+.texto-descricao-video h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.texto-descricao-video p{
+	margin-bottom: 15px;
+}
+
+.div-botoes{
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn-assistir{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	height: 45px;
+	width: 135px;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.btn-maisInfo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	height: 45px;
+	width:200px;
+	color: white;
+	background-color: rgba(79, 79, 79, 0.6);
+	border-radius: 5px;
+	margin-left: 10px;
 }
