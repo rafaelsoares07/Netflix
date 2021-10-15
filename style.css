@@ -91,3 +91,23 @@ video{
 	font-weight: 300;
 
 }
+
+
+.itens-sobre-video{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: calc(100vh - 100px);
+	left: calc(100vw - 100px);
+	border: 1px solid gray;
+	border-radius: 90px;
+	width: 80px;
+	height: 80px;
+}
+
+
+.btnNoMute{
+	display: none;
+
+}
